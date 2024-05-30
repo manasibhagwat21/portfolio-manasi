@@ -1,5 +1,5 @@
 import React from 'react';
-import manasi from './Manasi.JPG'
+import manasi from './assets/Manasi.JPG'
 
 
 const About = () => {

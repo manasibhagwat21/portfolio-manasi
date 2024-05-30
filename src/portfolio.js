@@ -1,18 +1,10 @@
-// src/Projects.js
 import React, { useEffect, useState } from 'react';
+import projects from './assets/projects.json';
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
   const [selectedTag, setSelectedTag] = useState('All');
-
-  useEffect(() => {
-    fetch('/projects.json')
-      .then(response => response.json())
-      .then(data => setProjects(data))
-      .catch(error => console.error('Error fetching projects:', error));
-  }, []);
-
   const filteredProjects = selectedTag === 'All' ? projects : projects.filter(project => project.tags.includes(selectedTag));
+  
 
   const handleTagClick = (tag) => {
     setSelectedTag(tag);
