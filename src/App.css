@@ -1,12 +1,8 @@
-/* Navbar */
-.navbar-nav .nav-item .nav-link {
-  transition: color 0.3s; 
-  font-family: 'Montserrat';
-}
 *{
   font-family: 'Montserrat';
 }
 
+/* Navbar */
 .navbar-brand{
   font-family: 'Montserrat';
   font-size: 150%;
@@ -19,6 +15,11 @@
 
 .nav-link.active {
   border-bottom: 4px solid #92C7CF;
+}
+
+.navbar-nav .nav-item .nav-link {
+  transition: color 0.3s; 
+  font-family: 'Montserrat';
 }
 
 /* Intro Container */
@@ -56,7 +57,7 @@
 }
 
 .name{
-  font-size: 350%;;
+  font-size: 350%;
 }
 
 .res a{
@@ -93,8 +94,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-height: 80%; /* Set maximum height */
-  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 80%; 
+  overflow-y: auto; 
 }
 
 .tags button{
@@ -216,17 +217,12 @@
 .about-container{
   background-color: #eee;
   height: 70vh;
-  padding: 8%;
+  padding:  8% 8% 0 8%;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
 .about-container h4{
   font-size: 250%;
-}
-
-.about-para{
-  text-align: justify;
-
 }
 
 .about-para span{
@@ -240,6 +236,8 @@
   text-align: center;
 }
 
+
+/* Contact Container */
 .contact-container{
   background-color: #eee;
   height: 40vh;
