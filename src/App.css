@@ -216,8 +216,8 @@
 
 .about-container{
   background-color: #eee;
-  height: 70vh;
-  padding:  8% 8% 0 8%;
+  height: fit-content;
+  padding:  8%;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
