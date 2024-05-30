@@ -75,8 +75,8 @@ const Intro = () => {
                 <h2 className='pt-4 d-flex  justify-content-center name'>Manasi Bhagwat </h2>
 
                 <div className="social-links d-flex justify-content-center pt-3">
-                    <a className='px-2' href="https://www.linkedin.com/in/-manasi-bhagwat/"> <FaLinkedin size='2.5vw'/> </a>
-                    <a className='px-2' href="https://github.com/manasibhagwat21"> <FaSquareGithub  size='2.5vw' /> </a>
+                    <a className='px-2' href="https://www.linkedin.com/in/-manasi-bhagwat/"> <FaLinkedin className='icon'/> </a>
+                    <a className='px-2' href="https://github.com/manasibhagwat21"> <FaSquareGithub  className='icon' /> </a>
                 </div>
                 </div>
             
