@@ -72,7 +72,7 @@ const Intro = () => {
         <div className='d-flex flex-column justify-content-center inlight'>
             
                 <div className='row '>
-                <h2 className='pt-4 d-flex  justify-content-center name'>Manasi Bhagwat </h2>
+                <div className=' d-flex  justify-content-center name'><h2 className='pt-4'>Manasi Bhagwat </h2></div>
 
                 <div className="social-links d-flex justify-content-center pt-3">
                     <a className='px-2' href="https://www.linkedin.com/in/-manasi-bhagwat/"> <FaLinkedin className='icon'/> </a>

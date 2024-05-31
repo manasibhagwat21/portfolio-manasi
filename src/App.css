@@ -56,7 +56,7 @@
   color:  #92C7CF;
 }
 
-.name{
+.name h2{ 
   font-size: 350%;
 }
 
@@ -264,7 +264,7 @@
 }
 
 .icon {
-  font-size: 5vw; /* Default size for smaller devices */
+  font-size: 8vw; /* Default size for smaller devices */
 }
 
 @media (min-width: 700px) {

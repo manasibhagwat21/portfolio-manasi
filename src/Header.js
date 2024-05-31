@@ -14,7 +14,7 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarText">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="home" spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
+                <Link className="nav-link active" aria-current="page" to="intro" spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link px-3" to="about" spy={true} smooth={true} offset={-70} duration={500}>About</Link>
