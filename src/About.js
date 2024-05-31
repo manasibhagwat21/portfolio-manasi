@@ -17,7 +17,7 @@ const About = () => {
         <p>Hello! I'm Manasi.</p>
         <p>I am a Computer Science grad student at <span>North Carolina State University</span>, with a specialization in Data Science.</p>
         <p>I am deeply passionate about the transformative power of data and its ability to drive informed decision-making.</p>
-        <p>I have experience as a <span>Data Engineer</span> and am currently working as a <span>Graduate Research Assistant</span> at NCSU.</p>
+        <p>I have experience as a <span>Data Engineer</span> at Tresata, NC and am currently working as a <span>Graduate Research Assistant</span> at NCSU.</p>
         <p>I am looking to learn, grow and contribute to impactful projects!</p>
         </div>
     </div> 

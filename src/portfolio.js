@@ -35,11 +35,15 @@ const Projects = () => {
   <div className="container">
     <h3 className='proj'>Projects</h3>
 
-    <div className='row tags my-3 mx-4'>
+    <div className='row d-flex justify-content-center mb-3'>
         {['All', 'Data Science','Development', 'Machine Learning'].map((tag) => (
-          <button key={tag} className='col-md-3 btn' onClick={() => handleTagClick(tag)}>
-            {tag}
-          </button>
+          <button
+          key={tag}
+          className={`col-md-3 proj-btn ${selectedTag === tag ? 'selected' : ''}`}
+          onClick={() => handleTagClick(tag)}
+        >
+          {tag}
+        </button>
         ))}
       </div>
     <div className="row">
@@ -49,7 +53,6 @@ const Projects = () => {
             <img className="card-img-top" src='' />
             <div className="card-overlay">
               <div className="hover-content">
-                <h5 className="card-title">{project.name}</h5>
                 <p>{project.description}</p>
               </div>
             </div>
