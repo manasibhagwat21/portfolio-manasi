@@ -9,15 +9,21 @@ import Intro from './Intro.js';
 import About from './About.js';
 import Timeline from './Timeline.js';
 import Contact from './Contact.js';
-
+import { Element } from 'react-scroll';
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Intro />
+      {/* <Intro />
       <About />
       <Projects />
-      <Contact />
+      <Contact /> */}
+      
+      {/* <Element name="home"><Home /></Element> */}
+      <Element name="intro"><Intro /></Element>
+      <Element name="about"><About /></Element>
+      <Element name="projects"><Projects /></Element>
+      <Element name="contact"><Contact /></Element>
       
     </div>
   );
