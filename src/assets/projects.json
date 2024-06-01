@@ -1,21 +1,21 @@
 [
     {
-      "name": "Machine Learning and Neural Networks for Movie ratings prediction.",
+      "name": "Email Spam Detection using NLTK and Machine Learning",
+      "description": "Leveraging natural language processing techniques and classification algorithms to identify and filter out unwanted or malicious emails from users' inboxes. Used NLTK library for text preprocessing and then built models for classification",
+      "link": "",
+      "tech_used": ["Python", "Natural Language Processing", "NLTK"],
+      "tags":["Data Science", "Machine Learning"]
+    },
+    {
+      "name": "Movie ratings prediction and analysis",
       "description": "Achieved 91% accuracy in predicting IMDb movie ratings using machine learning algorithms and neural networks such as Random Forest, XGBoost, and Decision Trees. Proficient in data processing and exploratory data analysis using Python facilitating informed decision-making.",
       "link": "",
       "tech_used": ["Python","Predictive Analysis"],
       "tags": ["Data Science", "Machine Learning"]
     },
     {
-      "name": "Machine Learning and Forecasting Techniques for Economics of a country",
-      "description": "Constructed Machine Learning models with an accuracy of 97% to forecast economical conditions, including regression analysis and Time series analysis. Executed data manipulation and processing using numpy and pandas to integrate economic indicators.",
-      "link": "",
-      "tech_used": ["Python","Machibne learning"],
-      "tags": ["Data Science", "Machine Learning"]
-    },
-    {
       "name": "Sentiment Analysis on Twitter dataset",
-      "description": "",
+      "description": "Conducted sentiment analysis on Twitter data of 1.6M tweets for classification of tweets as positive or negative. Leveraged NLTK for text preprocessing, ML algorithms and keras library for building a classification model.",
       "link": "",
       "tech_used": ["Python", "Natural Language Processing", "Keras"],
       "tags":["Data Science", "Machine Learning"]
@@ -28,8 +28,8 @@
       "tags": ["Development"]
     },
     {
-      "name": "",
-      "description": "This is a description for Project Four. It is a mobile application built with React Native.",
+      "name": "Route2Care – Web Based Pharmacy",
+      "description": "Designed an E-commerce website for medicines with HTML, JavaScript and Django framework as backed. Integrated payment gateway and used Optical Character Recognition for prescriptions with 95% accuracy. .",
       "link": "https://example.com/project-four",
       "tech_used": ["HTML", "CSS", "JavaScript", "Django"],
       "tags": ["Development"]
@@ -40,6 +40,13 @@
       "link": "https://example.com/project-four",
       "tech_used": ["Bert", "GPT", "Python"],
       "tags": ["Machine Learning"]
+    },
+    {
+      "name": "Wolf Parking Management",
+      "description": "Developed and implemented WolfParking, a SQL and Java parking management system for university campus, utilizing MariaDB. Designed functionalities for administrators to efficiently oversee parking lots, assign zones/spaces, issue permits, and enforce regulations through a command-line interface. Integrated MariaDB with Java using JDBC to enable seamless data operations",
+      "link": "",
+      "tech_used": ["Python", "Natural Language Processing", "Keras"],
+      "tags":["Data Science", "Machine Learning"]
     }
   ]
   

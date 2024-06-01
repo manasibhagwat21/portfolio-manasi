@@ -72,6 +72,16 @@
   overflow: hidden;
   height: 25vh !important;
 }
+.project-card h5{
+  font-size: 110%;
+  padding:2%;
+  text-align: center;
+}
+
+.techused {
+  font-family: 'Courier Prime', Courier, monospace !important;
+  font-size: 70%;
+}
 
 .card-overlay {
   position: absolute;

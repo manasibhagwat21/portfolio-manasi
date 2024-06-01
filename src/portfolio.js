@@ -58,7 +58,7 @@ const Projects = () => {
             </div>
             <div className="card-body">
               <h5 className="card-title">{project.name}</h5>
-              <p>{project.tech_used.join(', ')}</p>
+              {/* <p className='techused'>{project.tech_used.join(', ')}</p> */}
             </div>
           </div>
         </div>
