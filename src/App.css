@@ -113,16 +113,22 @@
 
 }
 
-.proj-btn{
-  width: 14% !important ;
-  font-family: 'Courier Prime', Courier, monospace;
-  align-items: center;
-  margin: 0 1%;
-  background-color: transparent;
-  border: #92C7CF 0px;
+.tags{
+  text-align: center;
+ 
 }
 
-.proj-btn:hover{
+.proj-btn{
+  width: 14% !important ;
+  color:black;
+  font-family: 'Courier Prime', Courier, monospace;
+  background-color: transparent;
+  border: #92C7CF 0px;
+  font-size: 80%;
+}
+
+
+.tags:hover{
   background-color: #92C7CF;
 }
 

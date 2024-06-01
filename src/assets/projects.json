@@ -1,6 +1,7 @@
 [
     {
       "name": "Email Spam Detection using NLTK and Machine Learning",
+      "":"",
       "description": "Leveraging natural language processing techniques and classification algorithms to identify and filter out unwanted or malicious emails from users' inboxes. Used NLTK library for text preprocessing and then built models for classification",
       "link": "",
       "tech_used": ["Python", "Natural Language Processing", "NLTK"],
