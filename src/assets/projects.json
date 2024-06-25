@@ -1,18 +1,23 @@
 [
     {
+      "name": "Email Spam Detection using NLP and Machine Learning",
+      "smalldesc":"",
+      "description": 
+      ["Utilized the Natural Language Toolkit (NLTK) for text preprocessing, including tokenization, lemmatization, and stemming.", 
+      "Built and trained classification models using Naive Bayes, Logistic Regression, and Support Vector Machines (SVM) algorithms to classify emails as spam or legitimate, with 89% accuracy.",
+      "Addressed class imbalance using Synthetic Minority Over-sampling Technique (SMOTE) to generate samples, achieving a 10% increase in precision and a 12% increase in recall, as determined by confusion matrix analysis." ],
+      "link": "",
+      "tech_used": ["Python", "Natural Language Processing", "NLTK"],
+      "tags":["Data Science", "Machine Learning"]
+    },
+  
+    {
       "name": "Email Spam Detection using NLTK and Machine Learning",
       "":"",
       "description": "Leveraging natural language processing techniques and classification algorithms to identify and filter out unwanted or malicious emails from users' inboxes. Used NLTK library for text preprocessing and then built models for classification",
       "link": "",
       "tech_used": ["Python", "Natural Language Processing", "NLTK"],
       "tags":["Data Science", "Machine Learning"]
-    },
-    {
-      "name": "Movie ratings prediction and analysis",
-      "description": "Achieved 91% accuracy in predicting IMDb movie ratings using machine learning algorithms and neural networks such as Random Forest, XGBoost, and Decision Trees. Proficient in data processing and exploratory data analysis using Python facilitating informed decision-making.",
-      "link": "",
-      "tech_used": ["Python","Predictive Analysis"],
-      "tags": ["Data Science", "Machine Learning"]
     },
     {
       "name": "Sentiment Analysis on Twitter dataset",
