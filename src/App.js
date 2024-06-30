@@ -10,6 +10,7 @@ import Timeline from './Timeline.js';
 import Contact from './Contact.js';
 import { Element } from 'react-scroll';
 import Education from './Education.js';
+import Work from './Work.js'
 function App() {
   return (
     <div className="App">
@@ -23,9 +24,11 @@ function App() {
       {/* <Element name="home"><Home /></Element> */}
       <Element name="intro"><Intro /></Element>
       <Element name="about"><About /></Element>
+      <Element name=""><Education /></Element>
+      <Element name=""><Work /></Element>
       <Element name="projects"><Projects /></Element>
       <Element name="contact"><Contact /></Element>
-      <Education />
+      
       
     </div>
   );
