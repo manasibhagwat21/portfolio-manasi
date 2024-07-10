@@ -1,23 +1,49 @@
-[
+  [
     {
-      "name": "Email Spam Detection using NLP and Machine Learning",
-      "smalldesc":"",
-      "description": 
-      ["Utilized the Natural Language Toolkit (NLTK) for text preprocessing, including tokenization, lemmatization, and stemming.", 
-      "Built and trained classification models using Naive Bayes, Logistic Regression, and Support Vector Machines (SVM) algorithms to classify emails as spam or legitimate, with 89% accuracy.",
-      "Addressed class imbalance using Synthetic Minority Over-sampling Technique (SMOTE) to generate samples, achieving a 10% increase in precision and a 12% increase in recall, as determined by confusion matrix analysis." ],
+      "name": "Music Recommendation System",
+      "smalldesc": "",
+      "description": [
+        "Analyzed the Spotify songs dataset to perform clustering using K-means algorithm based on audio features, optimizing the solution through the Elbow Method with a 20% improvement in clustering quality.",
+        "Applied Principal Component Analysis (PCA) for dimensionality reduction and enhancing visualization of clustering results.",
+        "Developed a recommendation engine leveraging cosine similarity for computing similarity scores between user input and formed clusters, achieving an 85% accuracy in predicting user preferences."
+      ],
       "link": "",
-      "tech_used": ["Python", "Natural Language Processing", "NLTK"],
-      "tags":["Data Science", "Machine Learning"]
+      "tech_used": ["Python", "Machine Learning"],
+      "tags": ["Data Science", "Machine Learning"]
     },
-  
     {
-      "name": "Email Spam Detection using NLTK and Machine Learning",
-      "":"",
-      "description": "Leveraging natural language processing techniques and classification algorithms to identify and filter out unwanted or malicious emails from users' inboxes. Used NLTK library for text preprocessing and then built models for classification",
+      "name": "Email Spam Detection",
+      "smalldesc": "",
+      "description": [
+        "Utilized the Natural Language Toolkit (NLTK) for text preprocessing, including tokenization, lemmatization, and stemming.",
+        "Built and trained classification models using Naive Bayes, Logistic Regression, and Support Vector Machines (SVM) algorithms to classify emails as spam or legitimate, with 89% accuracy.",
+        "Addressed class imbalance using Synthetic Minority Over-sampling Technique (SMOTE) to generate samples, achieving a 10% increase in precision and a 12% increase in recall, as determined by confusion matrix analysis."
+      ],
       "link": "",
       "tech_used": ["Python", "Natural Language Processing", "NLTK"],
-      "tags":["Data Science", "Machine Learning"]
+      "tags": ["Data Science", "Machine Learning"]
+    },
+    {
+      "name": "Chat Application - ChitChat",
+      "smalldesc": "",
+      "description": [
+        "Developed ChitChat, a real-time chat application using the MERN stack for enabling user communication.",
+        "Implemented secure user authentication, incorporating JSON Web Tokens (JWT) user sessions management and real-time communication features using Socket.io, facilitating instant message delivery and typing indicators."
+      ],
+      "link": "",
+      "tech_used": ["MongoDB", "Express.js", "ReactJS", "Node.js"],
+      "tags": ["Web Development", "Real-Time Applications"]
+    },
+    {
+      "name": "Web Application - Route2Care",
+      "smalldesc": "",
+      "description": [
+        "Designed an E-commerce website for medicines using HTML, JavaScript, and Django backend with user authentication, secure payment gateway, prescription validation, and responsive design.",
+        "Implemented Optical Character Recognition (OCR) with 95% accuracy to process and validate prescriptions for enhanced security."
+      ],
+      "link": "",
+      "tech_used": ["HTML", "JavaScript", "Django"],
+      "tags": ["Web Development", "E-commerce"]
     },
     {
       "name": "Sentiment Analysis on Twitter dataset",
@@ -27,23 +53,9 @@
       "tags":["Data Science", "Machine Learning"]
     },
     {
-      "name": "Real-time Chat Application",
-      "description": "Developed ChitChat, an application enabling real-time private and group chat functionalities in MERN Stack. Implemented secure user authentication via email and responsive UI for seamless user experience.",
-      "link": "https://example.com/project-three",
-      "tech_used": ["React", "Node.js", "Express", "MongoDB"],
-      "tags": ["Development"]
-    },
-    {
-      "name": "Route2Care – Web Based Pharmacy",
-      "description": "Designed an E-commerce website for medicines with HTML, JavaScript and Django framework as backed. Integrated payment gateway and used Optical Character Recognition for prescriptions with 95% accuracy. .",
-      "link": "https://example.com/project-four",
-      "tech_used": ["HTML", "CSS", "JavaScript", "Django"],
-      "tags": ["Development"]
-    },
-    {
       "name": "Clinical Text Summarisation using LLMs",
       "description": "Implemented Text Generation and Summarization system using BERT and Summarizer Model to condense clinical transcriptions into concise summaries enhancing healthcare documentation.",
-      "link": "https://example.com/project-four",
+      "link": "",
       "tech_used": ["Bert", "GPT", "Python"],
       "tags": ["Machine Learning"]
     },
@@ -55,4 +67,3 @@
       "tags":["Data Science", "Machine Learning"]
     }
   ]
-  

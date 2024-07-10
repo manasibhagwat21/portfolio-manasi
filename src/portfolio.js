@@ -13,8 +13,8 @@ const Projects = () => {
 
   function openModal(project) {
     document.getElementById('modalTitle').innerText = project.name;
-    document.getElementById('modalDescription').innerText = project.description;
-    document.getElementById('modalTech').innerText = project.tech_used.join(', ');
+    document.getElementById('modalDescription').innerText = project.description.join('\n');
+    document.getElementById('modalTech').innerHTML = project.tech_used.join(', ');
     document.getElementById('modalLink').href = project.link;
     document.getElementById('projectModal').style.display = 'block';
   }
@@ -36,14 +36,14 @@ const Projects = () => {
     <h3 className='proj'>Projects</h3>
 
     <div className='row d-flex justify-content-center mb-3'>
-        {['All', 'Data Science','Development', 'Machine Learning'].map((tag) => (
+        {['All', 'Data Science','Development', 'Machine Learning'].map((tags) => (
           <div className='col-sm-6 col-md-3 tags'> 
           <button
-          key={tag}
-          className={` proj-btn ${selectedTag === tag ? 'selected' : ''}`}
-          onClick={() => handleTagClick(tag)}
+          key={tags}
+          className={` proj-btn ${selectedTag === tags ? 'selected' : ''}`}
+          onClick={() => handleTagClick(tags)}
         >
-          {tag}
+          {tags}
         </button>
         </div>
         ))}
