@@ -329,8 +329,11 @@
 }
 
 .education-container{
-  padding: 5%;
-  margin-top: 1%;
+  padding: 3%;
 }
 
+.exp-container{
+  padding: 3%;
+  background-color: #eee;
+}
 

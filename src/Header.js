@@ -23,9 +23,6 @@ const Header = () => {
                 <Link className="nav-link px-3" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link px-3" to="resume" spy={true} smooth={true} offset={-70} duration={500}>Resume</Link>
-              </li>
-              <li className="nav-item">
                 <Link className="nav-link px-3" to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contact</Link>
               </li>
               
