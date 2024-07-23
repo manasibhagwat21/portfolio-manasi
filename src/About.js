@@ -19,6 +19,10 @@ const About = () => {
         <p>I am deeply passionate about the transformative power of data and its ability to drive informed decision-making.</p>
         <p>I have experience as a <span>Data Engineer</span> at Tresata, NC and am currently working as a <span>Graduate Research Assistant</span> at NCSU.</p>
         <p>I am looking to learn, grow and contribute to impactful projects!</p>
+        <p>
+          <button className='btn m-2' style={{'border':'solid 1px #5099a6'}}>Education</button>
+          <button className='btn m-2' style={{'border':'solid 1px #5099a6'}}>Work Experience</button>
+        </p>
         </div>
     </div> 
     </div>  

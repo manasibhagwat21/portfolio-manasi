@@ -9,8 +9,8 @@ const Work = () => {
     <div className='row pt-3'>
         <div className='col-md-6 exp d-flex flex-column align-items-center'>
         <div>
-        <h3>North Carolina State University</h3>
-        <h4>Masters in Computer Science</h4>
+        <h3>Data Engineer Intern</h3>
+        <h4>Tresata, NC, USA</h4>
         <h4>GPA - 3.78/4.0 | August 2023 - May 2025</h4>
         </div>
         </div>

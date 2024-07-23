@@ -24,8 +24,8 @@ function App() {
       {/* <Element name="home"><Home /></Element> */}
       <Element name="intro"><Intro /></Element>
       <Element name="about"><About /></Element>
-      <Element name=""><Education /></Element>
-      {/* <Element name=""><Work /></Element> */}
+      {/* <Element name=""><Education /></Element>
+      <Element name=""><Work /></Element> */}
       <Element name="projects"><Projects /></Element>
       <Element name="contact"><Contact /></Element>
       
