@@ -38,13 +38,13 @@ const Projects = () => {
     <div className='row d-flex justify-content-center mb-3'>
         {['All', 'Data Science','Development', 'Machine Learning'].map((tags) => (
           <div className='col-sm-6 col-md-3 tags'> 
-          <button
+          {/* <button
           key={tags}
           className={` proj-btn ${selectedTag === tags ? 'selected' : ''}`}
           onClick={() => handleTagClick(tags)}
         >
           {tags}
-        </button>
+        </button> */}
         </div>
         ))}
       </div>
