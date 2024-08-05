@@ -83,7 +83,7 @@ const Intro = () => {
             
                 <div className='d-flex flex-column align-items-center justify-content-center pt-3'> 
                     <p className="description"><span> Hello ! </span>I'm a CS graduate student at NCSU and aspiring data scientist and developer.</p>
-                    <p className="res">View <a href='https://drive.google.com/file/d/13jhQSTtjs00QaTjNw-Ai_trYMGQnFCcQ/view?usp=share_link'>Resume</a></p>
+                    <p className="res">View <a href='https://drive.google.com/file/d/1qjrxdqq-7OPrBAYiLC5RhVCATaKhNu3c/view?usp=share_link'>Resume</a></p>
                 </div> 
             </div>
         </div>

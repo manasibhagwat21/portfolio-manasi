@@ -34,13 +34,12 @@ const About = () => {
             <div className="modal-body">
               <h3>North Carolina State University</h3>
               <h5>Masters of Computer Science</h5>
-              <p>GPA - 3.78 / 4.0</p>
-              <p>Relevant Coursework - </p>
+              <p>GPA - 3.78 / 4.0 <br></br>Relevant Coursework - Natural Language Processing, Database Management System, Automated Learning & Data Analytics, Neural Networks & Deep Learning, Software Engineering, Design & Analysis of Algorithms. </p>
 
-              <h3>North Carolina State University</h3>
+              <h3>Mumbai University</h3>
               <h5>Bachelors of Engineering in Information Technology</h5>
-              <p>GPA - 9.22 / 10</p>
-              <p>Relevant Coursework - </p>
+              <p>GPA - 9.22 / 10 <br></br>Relevant Coursework - Data Structures, Computer Networks, Artificial Intelligence, Cloud Computing.
+</p>
             </div>
             <div className="modal-footer">
               <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -60,6 +59,7 @@ const About = () => {
             <div className="modal-body">
               <h3>North Carolina State University</h3>
               <h5>Graduate Research Assistant</h5>
+              <h6>( April 2024 - June 2024 )</h6>
               <ul>
                 <li>FungAI Web App - Built a web app for yeast cell detection using Image Segmentation models with 90% accuracy, leveraging ReactJS, Django framework and High-Performance Computing (HPC) cluster integration for faster predictions.  </li>
                 <li>Model Retraining - Improved accuracy by 20% by developing an interactive image annotation tool in ReactJS and CanvasAPI, enabling editing of predicted images and model retraining on new data.</li>
@@ -67,10 +67,11 @@ const About = () => {
               </ul>
               <h3>Tresata</h3>
               <h5>Data Engineer Intern</h5>
+              <h6>( June 2022 - August 2022 )</h6>
               <ul>
                 <li>Data Processing Pipeline - Implemented an Extract, Transform, Load (ETL) pipeline using Apache Spark and Scala for efficient data transfer and seamless integration with AWS S3 for scalable storage, reducing processing time by 25%. </li>
                 <li>Large-scale Data Analysis - Leveraged Scala and ElasticSearch to analyze over 2+ years of restaurant data to identify customer preferences, trends and optimal revenue streams, achieving 20% improvement in sales forecasting accuracy.</li>
-                <li> Data-Driven Dashboards - Presented 5+ interactive dashboards to stakeholders with drill-down features and filter options, visualizing Key Performance Indicators (KPIs) and aiding decision-making processes. </li>
+                <li>Data-Driven Dashboards - Presented 5+ interactive dashboards to stakeholders with drill-down features and filter options, visualizing Key Performance Indicators (KPIs) and aiding decision-making processes. </li>
               </ul>
             </div>
             <div className="modal-footer">
