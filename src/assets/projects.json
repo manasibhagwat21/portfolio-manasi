@@ -1,69 +1,94 @@
-  [
-    {
-      "name": "Music Recommendation System",
-      "smalldesc": "",
-      "description": [
-        "Analyzed the Spotify songs dataset to perform clustering using K-means algorithm based on audio features, optimizing the solution through the Elbow Method with a 20% improvement in clustering quality.",
-        "Applied Principal Component Analysis (PCA) for dimensionality reduction and enhancing visualization of clustering results.",
-        "Developed a recommendation engine leveraging cosine similarity for computing similarity scores between user input and formed clusters, achieving an 85% accuracy in predicting user preferences."
-      ],
-      "link": "",
-      "tech_used": ["Python", "Machine Learning"],
-      "tags": ["Data Science", "Machine Learning"]
-    },
-    {
-      "name": "Email Spam Detection",
-      "smalldesc": "",
-      "description": [
-        "Utilized the Natural Language Toolkit (NLTK) for text preprocessing, including tokenization, lemmatization, and stemming.",
-        "Built and trained classification models using Naive Bayes, Logistic Regression, and Support Vector Machines (SVM) algorithms to classify emails as spam or legitimate, with 89% accuracy.",
-        "Addressed class imbalance using Synthetic Minority Over-sampling Technique (SMOTE) to generate samples, achieving a 10% increase in precision and a 12% increase in recall, as determined by confusion matrix analysis."
-      ],
-      "link": "",
-      "tech_used": ["Python", "Natural Language Processing", "NLTK"],
-      "tags": ["Data Science", "Machine Learning"]
-    },
-    {
-      "name": "Chat Application - ChitChat",
-      "smalldesc": "",
-      "description": [
-        "Developed ChitChat, a real-time chat application using the MERN stack for enabling user communication.",
-        "Implemented secure user authentication, incorporating JSON Web Tokens (JWT) user sessions management and real-time communication features using Socket.io, facilitating instant message delivery and typing indicators."
-      ],
-      "link": "",
-      "tech_used": ["MongoDB", "Express.js", "ReactJS", "Node.js"],
-      "tags": ["Web Development", "Real-Time Applications"]
-    },
-    {
-      "name": "Web Application - Route2Care",
-      "smalldesc": "",
-      "description": [
-        "Designed an E-commerce website for medicines using HTML, JavaScript, and Django backend with user authentication, secure payment gateway, prescription validation, and responsive design.",
-        "Implemented Optical Character Recognition (OCR) with 95% accuracy to process and validate prescriptions for enhanced security."
-      ],
-      "link": "",
-      "tech_used": ["HTML", "JavaScript", "Django"],
-      "tags": ["Web Development", "E-commerce"]
-    },
-    {
-      "name": "Sentiment Analysis on Twitter dataset",
-      "description": "Conducted sentiment analysis on Twitter data of 1.6M tweets for classification of tweets as positive or negative. Leveraged NLTK for text preprocessing, ML algorithms and keras library for building a classification model.",
-      "link": "",
-      "tech_used": ["Python", "Natural Language Processing", "Keras"],
-      "tags":["Data Science", "Machine Learning"]
-    },
-    {
-      "name": "Clinical Text Summarisation using LLMs",
-      "description": "Implemented Text Generation and Summarization system using BERT and Summarizer Model to condense clinical transcriptions into concise summaries enhancing healthcare documentation.",
-      "link": "",
-      "tech_used": ["Bert", "GPT", "Python"],
-      "tags": ["Machine Learning"]
-    },
-    {
-      "name": "Wolf Parking Management",
-      "description": "Developed and implemented WolfParking, a SQL and Java parking management system for university campus, utilizing MariaDB. Designed functionalities for administrators to efficiently oversee parking lots, assign zones/spaces, issue permits, and enforce regulations through a command-line interface. Integrated MariaDB with Java using JDBC to enable seamless data operations",
-      "link": "",
-      "tech_used": ["Python", "Natural Language Processing", "Keras"],
-      "tags":["Data Science", "Machine Learning"]
-    }
-  ]
+[
+  {
+    "name": "Text Summarisation using LLM - BERT",
+    "smalldesc": "",
+    "description": [
+      "Leveraged transfer learning with transformer models, particularly S-BERT, to create a summarization model for clinical texts.",
+      "Used the BERT tokenizer with CLS token integration and NLTK for sentence segmentation, ensuring precise input processing."
+    ],
+    "link": "",
+    "tech_used": ["Python", "BERT"],
+    "tags": ["Data Science", "Machine Learning"]
+  },
+  {
+    "name": "RAG-based Chatbot with LLM",
+    "smalldesc": "",
+    "description": [
+      "Developed a chatbot with OpenAI API, integrating Retrieval-Augmented Generation (RAG) for context-aware responses.",
+      "Implemented FAISS for vector-based document retrieval, and LangChain for managing retrieval and generation processes."
+    ],
+    "link": "",
+    "tech_used": ["RAG", "OpenAI", "Python"],
+    "tags": ["Natural Language Processing", "Machine Learning"]
+  },
+  {
+    "name": "Music Recommendation System",
+    "smalldesc": "",
+    "description": [
+      "Analyzed the Spotify songs dataset to perform clustering using K-means algorithm based on audio features, optimizing the solution through the Elbow Method with a 20% improvement in clustering quality.",
+      "Applied Principal Component Analysis (PCA) for dimensionality reduction and enhancing visualization of clustering results.",
+      "Built a recommendation engine leveraging cosine similarity for computing similarity scores between user input and formed clusters, achieving an 88% accuracy in predicting user preferences."
+    ],
+    "link": "",
+    "tech_used": ["Python", "Machine Learning"],
+    "tags": ["Data Science", "Machine Learning"]
+  },
+  {
+    "name": "Email Spam Detection",
+    "smalldesc": "",
+    "description": [
+      "Built and trained classification models leveraging Naive Bayes, Logistic Regression, and Support Vector Machines (SVM) algorithms to classify emails as spam or legitimate, with 89% accuracy.",
+      "Addressed class imbalance using Synthetic Minority Over-sampling Technique (SMOTE) to generate samples, achieving a 10% increase in precision and a 12% increase in recall compared to the baseline model, as determined by confusion matrix analysis."
+    ],
+    "link": "",
+    "tech_used": ["Python", "Natural Language Processing", "Machine Learning"],
+    "tags": ["Data Science", "Machine Learning"]
+  },
+  {
+    "name": "Data Engineering Pipeline - Stock Market Data Analysis",
+    "smalldesc": "",
+    "description": [
+      "Engineered a stock market data pipeline using Apache Kafka for real-time data streaming from the Yahoo Finance API.",
+      "Deployed Python scripts on AWS EC2 instances to manage real-time data ingestion and scalable storage in AWS S3.",
+      "Developed data processing workflows with AWS Glue and conducted in-depth analysis of stock data in Athena using SQL."
+    ],
+    "link": "",
+    "tech_used": ["Apache Kafka", "Python", "SQL", "Amazon Web Services"],
+    "tags": ["Data Engineering", "Cloud Computing"]
+  },
+  {
+    "name": "Chat Application - ChitChat",
+    "smalldesc": "",
+    "description": [
+      "Developed a chat application using the MERN stack and Socket.io library for enabling real-time user communication.",
+      "Implemented JSON Web Tokens (JWT) for secure user authentication and Redis for efficient caching and session management.",
+      "Deployed the application using Docker and Kubernetes, ensuring high availability and seamless scaling."
+    ],
+    "link": "",
+    "tech_used": ["MongoDB", "Express.js", "ReactJS", "NodeJS"],
+    "tags": ["Web Development", "Real-Time Communication"]
+  },
+  {
+    "name": "Web Application - Recipe Recommender",
+    "smalldesc": "",
+    "description": [
+      "Developed a MERN stack web application that recommends recipes from MongoDB database based on user input.",
+      "Integrated OpenAI API to deliver dynamic recipe suggestions based on user inputs, beyond existing database entries.",
+      "Implemented secure user authentication using GoogleAuth and designed a responsive interface for enhanced user experience."
+    ],
+    "link": "",
+    "tech_used": ["MongoDB", "Express.js", "ReactJS", "NodeJS"],
+    "tags": ["Web Development", "Machine Learning"]
+  },
+  {
+    "name": "Web Application - Route2Care",
+    "smalldesc": "",
+    "description": [
+      "Designed an E-commerce website for medicines employing HTML, JavaScript, Django backend and SQLite database with user authentication, secure payment gateway and responsive design.",
+      "Implemented Optical Character Recognition (OCR) with 95% accuracy to validate clinical prescriptions."
+    ],
+    "link": "",
+    "tech_used": ["HTML", "JavaScript", "Django", "SQLite"],
+    "tags": ["Web Development", "E-commerce"]
+  }
+]
