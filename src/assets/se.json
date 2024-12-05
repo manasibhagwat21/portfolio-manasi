@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Data Engineering Pipeline - Stock Market Data Analysis",
+    "smalldesc": "",
+    "description": [
+      "Engineered a stock market data pipeline using Apache Kafka for real-time data streaming from the Yahoo Finance API.",
+      "Deployed Python scripts on AWS EC2 instances to manage real-time data ingestion and scalable storage in AWS S3.",
+      "Developed data processing workflows with AWS Glue and conducted in-depth analysis of stock data in Athena using SQL."
+    ],
+    "link": "",
+    "tech_used": ["Apache Kafka", "Python", "SQL", "Amazon Web Services"],
+    "tags": ["Data Engineering", "Cloud Computing"]
+  },
+  {
+    "name": "Chat Application - ChitChat",
+    "smalldesc": "",
+    "description": [
+      "Developed a chat application using the MERN stack and Socket.io library for enabling real-time user communication.",
+      "Implemented JSON Web Tokens (JWT) for secure user authentication and Redis for efficient caching and session management.",
+      "Deployed the application using Docker and Kubernetes, ensuring high availability and seamless scaling."
+    ],
+    "link": "",
+    "tech_used": ["MongoDB", "Express.js", "ReactJS", "NodeJS"],
+    "tags": ["Web Development", "Real-Time Communication"]
+  },
+  {
+    "name": "Web Application - Recipe Recommender",
+    "smalldesc": "",
+    "description": [
+      "Developed a MERN stack web application that recommends recipes from MongoDB database based on user input.",
+      "Integrated OpenAI API to deliver dynamic recipe suggestions based on user inputs, beyond existing database entries.",
+      "Implemented secure user authentication using GoogleAuth and designed a responsive interface for enhanced user experience."
+    ],
+    "link": "",
+    "tech_used": ["MongoDB", "Express.js", "ReactJS", "NodeJS"],
+    "tags": ["Web Development", "Machine Learning"]
+  },
+  {
+    "name": "Web Application - Route2Care",
+    "smalldesc": "",
+    "description": [
+      "Designed an E-commerce website for medicines employing HTML, JavaScript, Django backend and SQLite database with user authentication, secure payment gateway and responsive design.",
+      "Implemented Optical Character Recognition (OCR) with 95% accuracy to validate clinical prescriptions."
+    ],
+    "link": "",
+    "tech_used": ["HTML", "JavaScript", "Django", "SQLite"],
+    "tags": ["Web Development", "E-commerce"]
+  }
+]

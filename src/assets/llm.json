@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Text Summarisation using LLM - BERT",
+    "smalldesc": "",
+    "description": [
+      "Leveraged transfer learning with transformer models, particularly S-BERT, to create a summarization model for clinical texts.",
+      "Used the BERT tokenizer with CLS token integration and NLTK for sentence segmentation, ensuring precise input processing."
+    ],
+    "link": "",
+    "tech_used": ["Python", "BERT"],
+    "tags": ["Data Science", "Machine Learning"]
+  },
+  {
+    "name": "RAG-based Chatbot with LLM",
+    "smalldesc": "",
+    "description": [
+      "Developed a chatbot with OpenAI API, integrating Retrieval-Augmented Generation (RAG) for context-aware responses.",
+      "Implemented FAISS for vector-based document retrieval, and LangChain for managing retrieval and generation processes."
+    ],
+    "link": "",
+    "tech_used": ["RAG", "OpenAI", "Python"],
+    "tags": ["Natural Language Processing", "Machine Learning"]
+  }
+]

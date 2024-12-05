@@ -15,6 +15,7 @@ const About = () => {
           <p>I am a Computer Science grad student at <span>North Carolina State University</span>, with a specialization in Data Science.</p>
           <p>I am deeply passionate about the transformative power of data and its ability to drive informed decision-making.</p>
           <p>I have experience as a <span>Data Engineer</span> at Tresata, NC and am currently working as a <span>Graduate Research Assistant</span> at NCSU.</p>
+          <p>I have a certification from Amazon Web Services <span>AWS Solutions Atchitect - Associate</span>, showcasing proficiency and passion in building scalable cloud solutions.</p>
           <p>I am looking to learn, grow and contribute to impactful projects!</p>
           <p>
             <button className='btn m-2' style={{'border':'solid 1px #5099a6'}} data-bs-toggle="modal" data-bs-target="#educationModal">Education</button>
@@ -61,17 +62,21 @@ const About = () => {
               <h5>Graduate Research Assistant</h5>
               <h6>( April 2024 - June 2024 )</h6>
               <ul>
-                <li>FungAI Web App - Built a web app for yeast cell detection using Image Segmentation models with 90% accuracy, leveraging ReactJS, Django framework and High-Performance Computing (HPC) cluster integration for faster predictions.  </li>
-                <li>Model Retraining - Improved accuracy by 20% by developing an interactive image annotation tool in ReactJS and CanvasAPI, enabling editing of predicted images and model retraining on new data.</li>
-                <li>Server Deployment - Established an automated CI/CD pipeline utilizing Microsoft IIS for deployment on university servers. </li>
+                <li><b>Fine-tuned</b> image segmentation models on microscopy images for yeast cell detection, achieving 90% accuracy.  </li>
+                <li>Optimized model performance by 95% through automated cron jobs on a <b>High-Performance Computing (HPC)</b> cluster. </li>
+                <li>Developed a scalable web application using <b>ReactJS</b> and <b>Django</b>, integrating the ML models to improve user accessibility. </li>
+                <li>Designed an interactive image annotation tool with ReactJS for on-demand image annotation and engineered a <b>MLOps pipeline</b> to
+                facilitate iterative model retraining, enabling continuous model enhancement. </li>
+                <li>Engineered a robust <b>CI/CD pipeline with Jenkins</b> to facilitate the automated deployment of the application on Microsoft IIS. </li>
               </ul>
               <h3>Tresata</h3>
               <h5>Data Engineer Intern</h5>
               <h6>( June 2022 - August 2022 )</h6>
               <ul>
-                <li>Data Processing Pipeline - Implemented an Extract, Transform, Load (ETL) pipeline using Apache Spark and Scala for efficient data transfer and seamless integration with AWS S3 for scalable storage, reducing processing time by 25%. </li>
-                <li>Large-scale Data Analysis - Leveraged Scala and ElasticSearch to analyze over 2+ years of restaurant data to identify customer preferences, trends and optimal revenue streams, achieving 20% improvement in sales forecasting accuracy.</li>
-                <li>Data-Driven Dashboards - Presented 5+ interactive dashboards to stakeholders with drill-down features and filter options, visualizing Key Performance Indicators (KPIs) and aiding decision-making processes. </li>
+                <li>Implemented an <b>ETL</b> pipeline using <b>Apache Spark</b> for data ingestion from multiple sources, reducing processing time by 25%. </li>
+                <li>Integrated data from on-premises <b>MySQL database</b> and delivery system to <b>AWS S3</b>, ensuring scalable storage and processing. </li>
+                <li>Performed data integrity checks and developed <b>Scala </b>scripts to automate the standardization of dataset, increasing data accuracy and reducing manual efforts by 60%. </li>
+                <li>Conducted in-depth analysis of over 2 years of operational data and integrated it with <b>Tableau</b> dashboards to visualize Key Performance Indicators (KPIs), facilitating data-driven decision-making.</li>
               </ul>
             </div>
             <div className="modal-footer">

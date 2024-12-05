@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Music Recommendation System",
+    "smalldesc": "",
+    "description": [
+      "Analyzed the Spotify songs dataset to perform clustering using K-means algorithm based on audio features, optimizing the solution through the Elbow Method with a 20% improvement in clustering quality.",
+      "Applied Principal Component Analysis (PCA) for dimensionality reduction and enhancing visualization of clustering results.",
+      "Built a recommendation engine leveraging cosine similarity for computing similarity scores between user input and formed clusters, achieving an 88% accuracy in predicting user preferences."
+    ],
+    "link": "",
+    "tech_used": ["Python", "Machine Learning"],
+    "tags": ["Data Science", "Machine Learning"]
+  },
+  {
+    "name": "Email Spam Detection",
+    "smalldesc": "",
+    "description": [
+      "Built and trained classification models leveraging Naive Bayes, Logistic Regression, and Support Vector Machines (SVM) algorithms to classify emails as spam or legitimate, with 89% accuracy.",
+      "Addressed class imbalance using Synthetic Minority Over-sampling Technique (SMOTE) to generate samples, achieving a 10% increase in precision and a 12% increase in recall compared to the baseline model, as determined by confusion matrix analysis."
+    ],
+    "link": "",
+    "tech_used": ["Python", "Natural Language Processing", "Machine Learning"],
+    "tags": ["Data Science", "Machine Learning"]
+  }
+]
